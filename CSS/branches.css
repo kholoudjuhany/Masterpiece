@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/IMG/consumer-healthcare-products.jpg');
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #B9DEFF 0%, #6F8599 100%);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid white;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.hero {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.hero .overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-content {
+    padding: 10px;
+}
+
+/* .hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+} */
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 7px;
+    width: 100%;
+    text-align: center; /* Center text in the table */
+}
+
+.table-header, .table-row {
+    display: contents;
+}
+
+.table-cell {
+    padding: 10px;
+    font-size: 20px; /* Increase the font size */
+    font-family: 'Roboto', sans-serif; 
+}
+
+.header {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
